@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #23252C;
+    margin: 0;
+    font-family: 'Inter';
+}
+
+main {
+    width: 317px;
+    margin: 44px auto;
+    border-radius: 10px;
+}
+
+main > img {
+    border-radius: 10px 10px 0px 0px;
+    width: 317px;
+    display: block;
+}
+
+#main-content {
+    background-color: #1A1B21;
+    color: #DCDCDC;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px
+}
+
+#id-name {
+    margin: 0px;
+    padding: 21px 0px 0px 0px;
+
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+#id-title {
+    font-size: 12.8px;
+    line-height: 15px;
+    color: #F3BF99;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+#id-web {
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin-top: 9px;
+    text-decoration: none
+}
+
+#contact {
+    margin: 15px 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#linkedin-btn {
+    background-color: #5093E2;
+    color: #FFF 
+}
+
+#email-btn {
+    background-color: #FFF;
+    color: #374151
+}
+
+#contact > a {
+    display: flex;
+    border: none;
+    border-radius: 6px;
+    width: 115px;
+    font-size: 14px;
+    padding: 9px 0px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-decoration: none
+}
+
+#contact > a > img {
+    margin-right: 10px;
+}
+
+#bio {
+    text-align: left;
+    padding: 0px 36px;
+    font-size: 10px;
+    margin: 6px 0px 24px
+}
+
+#bio > h3 {
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin: 27px 0px 0px
+}
+
+#bio > p {
+    line-height: 150%;
+    color: #DCDCDC;
+    margin: 5px 0px
+}
+
+#social {
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 73px
+}
+
+#social > a > img {
+    width: 25px;
+    height: 25px;
+    margin: 0px 12px
+}
